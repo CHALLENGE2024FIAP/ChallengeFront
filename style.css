@@ -1,3 +1,5 @@
+style
+ 
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
     box-sizing: border-box;
 }
 .hero{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background: #1D8E65;
     background-position: center;
@@ -48,8 +50,8 @@ nav ul li a:hover
 }
 .btn
 {
-    background-color: #5b5050;
-    color: white;
+    background-color: #fff;
+    color: #000;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -82,7 +84,7 @@ nav ul li a:hover
     top: 40%;
     left: 7%;
     transform: translateY(-50%);
-
+ 
 }
 h1
 {
@@ -92,7 +94,7 @@ h1
     padding-top: 20px;
     padding: 0;
     margin: 0;
-
+ 
 }
 .content p{
     color: #fff;
@@ -104,7 +106,7 @@ h1
     font-size: 20px;
     letter-spacing: 2px;
     color: #fff;
-
+ 
 }
 .newslatter form
 {
@@ -131,7 +133,7 @@ h1
     border-radius: 60px;
     background-color: #fff;
     color: #1D8E65;
-    box-shadow: 0px 0px 5px #000000, 0px 0px 15px #cacaca;
+    box-shadow: 0px 0px 5px #000000, 0px 0px 15px #a0a0a0;
     top: 6px;
     right: 6px;
 }
@@ -143,7 +145,7 @@ margin-top: 20%;
 flex-wrap: wrap;
 padding: 5%;
 }
-
+ 
 .foto img
 {
     width: 120px;
@@ -151,7 +153,7 @@ padding: 5%;
     margin: 0%;
     justify-content: space-between;
 }
-
+ 
 .foto #lucas p{
     display: flex;
     flex-wrap: wrap;
@@ -161,7 +163,7 @@ padding: 5%;
     justify-content: space-between;
     padding-left: 2%;
 }
-
+ 
 .foto #ryan p{
     display: flex;
     flex-wrap: wrap;
@@ -171,7 +173,7 @@ padding: 5%;
     justify-content: space-between;
     padding-left: 2%;
 }
-
+ 
 .foto #vitoria p{
     display: flex;
     flex-wrap: wrap;
@@ -181,4 +183,19 @@ padding: 5%;
     justify-content: space-between;
     padding-left: 2%;
 }
-
+ 
+.foto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+ 
+.foto a:hover {
+    background-color: #555;
+}
+ 
