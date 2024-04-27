@@ -48,8 +48,8 @@ nav ul li a:hover
 }
 .btn
 {
-    background-color: #5b5050;
-    color: white;
+    background-color: #fff;
+    color: #000;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
